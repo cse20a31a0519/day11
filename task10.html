@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center style="background-color:rgb(174, 241, 241)">
+    <header>Overview of Html</header>
+</center>
+<main style="background-color: bisque;">
+    <section>
+        <details>
+            <summary style="color: crimson;" >What is html?</summary>
+            <br>
+            HTML (HyperText Markup Language) is used to structure and display content on the web. It allows developers to organize text, images, links, and multimedia elements into a coherent layout, enabling browsers to interpret and present this content to users. HTML provides the foundation for web pages by defining various elements such as headings, paragraphs, tables, forms, and more. It is essential for creating user-friendly websites, enabling interaction, and serving as the backbone for web development when combined with CSS and JavaScript.
+         <br><br>
+        </details>
+     </section>
+     <section>
+        <details>
+            <summary style="color: crimson;">Why do we use html?</summary>
+            <br>
+            We use HTML (HyperText Markup Language) to create and structure content on the web, allowing browsers to interpret and display it to users. It enables developers to define elements like text, images, videos, and links, organizing them into a user-friendly layout. HTML provides the foundation for websites, ensuring that content is accessible and well-structured. When combined with CSS for styling and JavaScript for interactivity, HTML helps create dynamic, visually appealing, and interactive web pages.
+            <br><br> 
+        </details>
+     </section>
+     <section>
+        <details>
+            <summary style="color: crimson;">What is doctype in html?</summary>
+            <br>
+            The `DOCTYPE` declaration in HTML is a critical instruction that tells the browser which version of HTML the webpage is written in. It ensures that the browser renders the page correctly according to the specified standards, preventing potential display issues. In modern web development, the `<!DOCTYPE html>` declaration is used to signify HTML5, the latest version of the language. This declaration must appear at the very top of the HTML document, before any other content or tags.
+        <br><br>
+        </details>
+     </section>
+     <section>
+        <details>
+            <summary style="color: crimson;">What is the root element of html?</summary>
+            <br>
+            The root element of an HTML document is the `html` tag, which encloses all the content and structure of the webpage. It acts as the top-level container for all other elements, such as the `head` and `body` tags, which are nested inside it. The `html` element is essential because it defines the document type as an HTML file, and browsers rely on it to understand and display the content correctly. It also includes attributes like `lang` to specify the language of the webpage for accessibility and SEO purposes.
+            <br>
+            <br>
+        </details>
+     </section>
+     <section>
+        <details>
+            <summary style="color: crimson;">What is a tag?</summary>
+            <br>
+            HTML tags are like keywords which defines that how web browser will format and display the content. With the help of tags, a web browser can distinguish between an HTML content and a simple content. HTML tags contain three main parts: opening tag, content and closing tag. But some HTML tags are unclosed tags.
+            <br>  
+            <br>
+        </details>
+     </section>
+     <section>
+        <details>
+            <summary style="color: crimson;">Give me a few examples of self-closing tags?</summary>
+            <br>
+            Here are a few examples of self-closing tags:
+            1. img - Used to embed images.
+            2. br - Inserts a line break.
+            3. hr - Creates a horizontal rule (line).
+            4. input- Represents an input field in a form.
+            5. meta- Provides metadata about the HTML document.
+            6.link- Links to external resources like stylesheets.
+            <br>
+            <br>
+        </details>
+     </section>
+     <section>
+        <details>
+            <summary style="color: crimson;">What is an element?</summary>
+            <br>
+            An HTML element is a component of an HTML document that tells a web browser how to structure and interpret a part of the HTML document. HTML elements can contain formatting instructions, semantic meaning, and content.
+            An HTML element is often — but not always — created by opening and closing HTML tags, which wrap around a piece of content. Below is an illustration that labels each of the parts of an HTML element:
+            <br><br>
+        </details>
+     </section>
+     <section>
+        <details>
+            <summary style="color: crimson;">How many types of elements are there in html?</summary>
+            <br>
+            There are two types Of Elements:
+Block Level: Block elements are meant to structure the main parts of your page, by dividing your content in coherent blocks wth full width.
+paragraphs-p,lists: UL and LI, headings h1 to h6, articles article, sections section, long quotes blockquote, Division div, Form form, Table table.
+Inline Level: Inline elements are meant to differentiate part of a text, to give it a particular function or meaning. Inline elements usually comprise a single or few words.
+links a, image img, span span, button button, input input, label label, textarea textarea, emphasised words em, important words strong, short quotes q,Strong strong
+<br><br>       
+</details>
+     </section>
+     <section>
+        <details>
+            <summary style="color: crimson;">What is difference between the inline vs block elements?</summary>
+            <br>
+            Inline elements never start from a new line. Block elements cover space from left to right as far as it can go. Inline elements only cover the space as bounded by the tags in the HTML element. Block elements have top and bottom margins.
+            A block-level element takes the full width of the page and begin on a new line. example - div , dl , dt , hr , li etc . An inline element takes up as much width that is required / necessary and doesn't begin on a new line . example - span, tt , textarea , label , select etc . 
+            <br><br>
+        </details>
+     </section>
+     <section>
+        <details>
+            <summary style="color: crimson;">What is the  difference between semantic elements and non-semantic elements?</summary>
+            <br>
+            Semantic HTML tags are used to define the meaning of the content they contain. Tags like header, article, and footer are semantic HTML tags, they specify the role of the content present on them. While div and span are typical examples of non-semantic HTML elements.
+            These semantic elements simply mean, elements with meaning. The reason being, there definition in the code tells the browser and the developer what they are supposed to do.
+            Unlike, semantic elements they don’t have any meaning. They don’t tell anything about the content they contain. They can be used with different attributes to mark up semantics common to a group.
+            <br><br>
+        </details>
+     </section>
+     <section>
+        <details>
+            <summary style="color: crimson;">What are href vs src attributes?</summary>
+            <br>
+             The `href` and `src` attributes are both used in HTML, but they serve different purposes. The `href` (hyperlink reference) attribute is primarily used in `a` (anchor) tags to link to another webpage or resource, allowing users to navigate to that location when the link is clicked. In contrast, the `src` (source) attribute is used in elements like `img`, `script`, and `iframe` to specify the location of an external resource, such as an image, JavaScript file, or another HTML document that should be embedded or displayed on the current page. Essentially, `href` is for linking, while `src` is for embedding content.
+            
+            <br> <br>
+        </details>
+     </section>
+     <section>
+        <details>
+            <summary style="color: crimson;">What are the features of html 5?</summary>
+            <br>
+            HTML 5 is the fifth and current version of HTML. It has improved the markup available for documents and has introduced application programming interfaces (API) and Document Object Model (DOM). 
+            Features:
+It has introduced new multimedia features which supports both audio and video controls by using audio and video tags.
+There are new graphics elements including vector graphics and tags.
+Enrich semantic content by including header footer, article, section and figure are added.
+Drag and Drop- The user can grab an object and drag it further dropping it to a new location.
+Geo-location services- It helps to locate the geographical location of a client.
+Web storage facility which provides web application methods to store data on the web browser.
+Uses SQL database to store data offline.
+Allows drawing various shapes like triangle, rectangle, circle, etc.
+Capable of handling incorrect syntax.
+Easy DOCTYPE declaration i.e., !doctype html
+Easy character encoding i.e., meta charset=”UTF-8″
+            <br><br>
+        </details>
+     </section>
+     <section>
+        <details>
+            <summary style="color: crimson;"> What are entities in html?</summary>
+            <br>
+            HTML entities offer methods to display reserved characters, ensuring correct rendering. Reserved characters, like ‘<‘, can create ambiguity if not displayed properly. HTML provides entity names and numbers for symbols not on basic keyboards (e.g., £, ¥, €, ©), resolving ambiguity and enabling accurate display.
+            <br><br>
+        </details>
+     </section>
+     <section>
+        <details>
+            <summary style="color: crimson;">What is the difference between div and span?</summary>
+            <br>
+            Span and div are both generic HTML elements that group together related parts of a web page. However, they serve different functions. A div element is used for block-level organization and styling of page elements, whereas a span element is used for inline organization and styling
+            <br><br>
+        </details>
+     </section>
+     <section>
+        <details>
+            <summary style="color: crimson;">What are list tags in html?</summary>
+            <br>
+            The HTML list tag is used to group related pieces of information. Lists are used to create well-structured views and easily maintained documents. In this article, we'll discuss the HTML list tag in detail and explore the various lists you can create.
+            <br><br>
+        </details>
+     </section>
+     <section>
+        <details>
+            <summary style="color: crimson;">what are attributes in html</summary>
+            <br>
+            HTML attributes are special words used inside the opening tag to control the element's behaviour. HTML attributes are a modifier of a HTML element type. An attribute either modifies the default functionality of an element type or provides functionality to certain element types unable to function correctly without them.
+            <br><br>
+        </details>
+     </section>
+     <section>
+        <details>
+            <summary style="color: crimson;">mention a few attributes for img tags for geeks?</summary>
+            <br>
+            The img element is used to insert images into an HTML document. It is an empty tag (meaning it has no closing tag).
+
+The img element has two required attributes:
+
+src: The source location (URL) of the image file.
+This works the same way as the href attribute on links
+alt: The alternate text.
+This is used to describe the image for someone who cannot see it because they are either using a screen reader or the image src is missing. This text will only show if the image does not.
+            <br><br>
+        </details>
+     </section>
+     <section>
+        <details>
+            <summary style="color: crimson;">what is thead on the table? </summary>
+            <br>
+            The HTML thead tag is used to provide a header to the group of content in an HTML table. Combining the tbody and tfoot elements with the thead element can help to specify each part of a table, i.e., the header, body, and footer. By using these elements, browsers allow the table body to scroll separately from the header and footer. To use the thead element, there must be more than one tr tag inside the table.
+            <br><br>
+        </details>
+     </section>
+     <section>
+        <details>
+            <summary style="color: crimson;">What is tr?</summary>
+            <br>
+            The HTML tr tag, short for "table row," is used to define a row in an HTML table. It acts as a container for table data cells (td elements) and can also include table header cells (th elements).
+            <br><br>
+        </details>
+     </section>
+     <section>
+        <details>
+            <summary style="color: crimson;">What is th?</summary>
+            <br>
+            The th tag in HTML is used to set the header cell of a table. The working of both tags (th and td) are the same, but the text properties are different. In th text is bold and centered, and in td text is regular and left aligned by default.
+            <br><br>
+        </details>
+     </section>
+     <section>
+        <details>
+            <summary style="color: crimson;">What is td?</summary>
+            <br>
+            The td tag is used to define a standard cell in an HTML table. The 'rowspan' and 'colspan' in the td tag tell how many rows or columns a cell covers, while e 'id' and 'class' help uniquely identify and style the cell using CSS, and 'style' determines its visual appearance.
+            <br><br>
+        </details>
+     </section>
+     <section>
+        <details>
+            <summary style="color: crimson;">What are meta tags?What is seo?</summary>
+            <br>
+            The meta tag contains Important keywords for web page ranking, aiding search engines in indexing content and optimizing its SEO rank. This process, known as Search Engine Optimization (SEO), enhances visibility and accessibility of web content.
+            <br><br>
+        </details>
+     </section>
+     <section>
+        <details>
+            <summary style="color: crimson;"> what is attr of the html tag?</summary>
+            <br>
+            The attr in the context of HTML refers to attributes, which are additional information or properties that can be added to HTML tags. Attributes are used to define characteristics such as the tag's behavior, appearance, or functionality. They are placed inside the opening tag and always consist of a name-value pair, like class="header" or href="link.html".
+            <br><br>
+        </details>
+     </section>
+     <section>
+        <details>
+            <summary style="color: crimson;">What is an iframe and anchor?</summary>
+            <br>
+            An anchor is the visible region which must be selected to activate the link. The iframe tag is used to display a web page inside a web page. When you create a document to be inside an iframe, any links in that frame will automatically open in that same frame.
+            <br><br>
+        </details>
+     </section>
+     <section>
+        <details>
+            <summary style="color: crimson;">What is git vs github?</summary>
+            <br>
+            Git is a distributed version control system used to track changes in source code during software development. It allows multiple developers to collaborate, manage different versions of code, and revert to previous states if needed. GitHub, on the other hand, is a cloud-based platform that hosts Git repositories, offering features like issue tracking, pull requests, and collaboration tools. While Git operates locally, GitHub facilitates remote collaboration by providing a centralized location to store and manage Git repositories online.
+            <br><br>
+        </details>
+     </section>
+     <section>
+        <details>
+            <summary style="color: crimson;">What is the workflow of github?</summary>
+            <br>
+            GitHub's workflow typically begins with creating or cloning a repository, where developers manage and store their project's code. Users work on new features or bug fixes in separate branches, and once changes are complete, they commit and push them to GitHub. These changes are then reviewed through pull requests, where collaborators can comment and suggest improvements. Once approved, the code is merged into the main branch, maintaining a structured and collaborative development process.
+            <br><br>
+        </details>
+     </section>
+     <section>
+        <details>
+            <summary style="color: crimson;">What command do we need to use to move the changes to staged changes?</summary>
+            <br>
+            To move changes to the staged area in Git, use the `git add` command followed by the file name or a dot (`.`) to add all changes in the current directory. Staging means you are preparing the files for the next commit, but they aren't committed yet. For example, `git add .` will stage all modified or new files, while `git add file stages specific files. Once staged, the files are ready to be committed with a message using `git commit`.
+            <br><br>
+        </details>
+     </section>
+     <section>
+        <details>
+            <summary style="color: crimson;">How can you stage all files at a time?</summary>
+            <br>
+            To stage all files at once in Git, you can use the command `git add .` in your terminal or command line. This command stages all the modified, new, or deleted files in the current directory and its subdirectories for the next commit. It's a quick way to prepare multiple changes simultaneously. However, ensure you review the changes before committing to avoid unintentionally adding unwanted files.
+            <br><br>
+        </details>
+     </section>
+     <section>
+        <details>
+            <summary style="color: crimson;"> What is the git push command and use of it?</summary>
+            <br>
+            The `git push` command is used to upload local repository content to a remote repository, typically hosted on platforms like GitHub or GitLab. It transfers committed changes, allowing others to access and collaborate on the updated project. This command is crucial in version control, ensuring that local changes are synchronized with the central repository. By using `git push`, developers can share code, track revisions, and work seamlessly in distributed teams.
+            <br><br>
+        </details>
+     </section>
+     <section>
+        <details>
+            <summary style="color: crimson;">What is git commit command usage?</summary>
+            <br>
+            The `git commit` command is used to save changes to the local repository after staging them with `git add`. It creates a snapshot of the current state of the project, allowing you to document changes with a descriptive message using the `-m` option. For example, `git commit -m "Commit message"` records the changes along with the message. Each commit represents a version in the project's history, which can later be reverted or reviewed as needed.
+            <br><br>
+        </details>
+     </section>
+     <section>
+        <details>
+            <summary style="color: crimson;">What is the use of the git init command?</summary>
+            <br>
+            The `git init` command is used to initialize a new Git repository in a project directory. It creates a hidden `.git` folder, where Git stores all the necessary configuration files and the project’s version history. This command enables tracking of changes and version control for the project. It's the first step in starting a Git-managed project, either for a new project or for adding Git to an existing one.
+            <br><br>
+        </details>
+     </section>
+     <section>
+        <details>
+            <summary style="color: crimson;">What are formatting tags?</summary>
+            <br>
+            Formatting tags in HTML are used to apply styles and structure to text within a web page. They enhance the presentation of content by defining how text is displayed, such as bold (`strong`), italic (`em`), underline (`u`), or strikethrough (`del`). These tags help improve readability and emphasize specific parts of the text. Additionally, formatting tags can influence the overall aesthetic and user experience of a website, making it visually appealing and easier to navigate.
+            <br><br>
+        </details>
+     </section>
+     <section>
+        <details>
+            <summary style="color: crimson;"> What are input tag attributes?</summary>
+            <br>
+            The `input` tag in HTML is used to create interactive controls in web forms for user data entry. Key attributes include `type`, which specifies the input's format (e.g., text, password, email); `name`, which identifies the input when the form is submitted; `value`, which sets the default value displayed in the input field; and `placeholder`, which provides a hint to the user about what to enter. Other attributes, such as `required`, `maxlength`, and `disabled`, further customize the behavior and appearance of the input fields, enhancing user experience and form validation.
+            <br><br>
+        </details>
+     </section>
+     <section>
+        <details>
+            <summary style="color: crimson;">What are form attributes?</summary>
+            <br>
+            Form attributes are specific properties that define how HTML forms behave and interact with users. They include attributes like `action`, which specifies the URL where the form data should be sent upon submission, and `method`, which determines how the data is sent (e.g., GET or POST). Other important attributes include `enctype`, which specifies the encoding type for form data, and `target`, which defines where to display the response (e.g., in a new window or the same frame). Together, these attributes help control the functionality and appearance of web forms, ensuring a better user experience.
+            <br><br>
+        </details>
+     </section>
+     <section>
+        <details>
+            <summary style="color: crimson;">What is a marquee tag?</summary>
+            <br>
+            The `marquee` tag is an HTML element used to create scrolling text or images across a web page. It allows for horizontal or vertical movement, with various attributes to control the speed, direction, and behavior of the scrolling content. Although it was once popular for adding dynamic text effects, the `marquee` tag is now considered obsolete in HTML5 and is not recommended for use in modern web design due to accessibility and usability issues. Instead, CSS animations and JavaScript provide more flexible and accessible alternatives for creating similar effects.
+            <br><br>
+        </details>
+     </section>
+     <section>
+        <details>
+            <summary style="color: crimson;">What is the marquee tag attributes?</summary>
+            <br>
+            The `marquee` tag is a non-standard HTML element used to create scrolling text or images across a webpage. Although it is deprecated and not recommended for use in modern web development, it has several attributes that control its behavior:
+
+                1. **direction**: Specifies the direction in which the content scrolls. Possible values include "left," "right," "up," and "down."
+                2. **scrollamount**: Defines the speed of the scrolling text. A higher value results in faster scrolling.
+                3. **scrolldelay**: Sets the delay between each scroll movement in milliseconds, controlling how quickly the text moves.
+                4. **behavior**: Determines how the content scrolls. Options include "scroll" (default), "slide" (stops at the end), and "alternate" (bounces back and forth).
+                While the `marquee` tag can be fun for adding dynamic text to a webpage, it's advisable to use CSS animations or JavaScript for similar effects in a more accessible and standardized way.
+            <br><br>
+        </details>
+     </section>
+
+     <section>
+        <details>
+            <summary style="color: crimson;">What are multimedia tags?</summary>
+            <br>
+            Multimedia tags are HTML elements used to embed various types of media content, such as images, audio, and video, into web pages. Common tags include `img> for images, `audio` for sound files, and `video` for video clips, each allowing for specific attributes that control playback and display. These tags enhance user engagement by providing rich media experiences directly within web browsers. They are essential for modern web design, enabling seamless integration of multimedia content without the need for external plugins.
+            <br><br>
+        </details>
+     </section>
+     <section>
+        <details>
+            <summary style="color: crimson;">  Can we use block elements in inline elements?</summary>
+            <br>
+            In HTML, inline elements cannot contain block elements. Inline elements, such as `span`, `a`, and `strong`, are designed to flow within the content of a block-level element, such as `div`, `p`, or `h1`, without causing a line break. Conversely, block elements create a new line and take up the full width available. If you try to place a block element inside an inline element, it may not render correctly and could lead to unexpected results. To maintain proper HTML structure, always ensure that block elements are nested within other block elements.
+         <br><br>
+        </details>
+     </section>
+     <section>
+        <details>
+            <summary style="color: crimson;">What are difference between abs vs real paths?</summary>
+            <br>
+            An absolute path (abs path) refers to the complete directory structure from the root of the filesystem to a specific file or directory, providing a unique location regardless of the current working directory. In contrast, a relative path (real path) is defined in relation to the current working directory, making it more flexible but dependent on the user's current location in the filesystem. While absolute paths are always accurate and unambiguous, relative paths are often shorter and easier to use for navigating within a project. Understanding the distinction is crucial for effectively managing file systems and ensuring correct file access in programming and scripting.<br><br>
+        </details>
+     </section>
+     <section>
+        <details>
+            <summary style="color: crimson;">What are multimedia tags?</summary>
+            <br>
+            Multimedia tags are HTML elements used to embed various types of media content, such as images, audio, and video, into web pages. Common tags include `img> for images, `audio` for sound files, and `video` for video clips, each allowing for specific attributes that control playback and display. These tags enhance user engagement by providing rich media experiences directly within web browsers. They are essential for modern web design, enabling seamless integration of multimedia content without the need for external plugins.
+            <br><br>
+        </details>
+     </section>
+     <section>
+        <details>
+            <summary style="color: crimson;"> What are summary and details tags?</summary>
+            <br>
+            The `summary` and `details` tags in HTML are used to create a collapsible content feature, enhancing user experience by providing an interactive way to present information. The `details` tag encapsulates a section of content that can be expanded or collapsed, while the `summary` tag defines a summary or heading that is always visible, serving as a trigger for expanding the hidden content. When a user clicks on the summary, the details expand to reveal more information, making it useful for FAQs, descriptions, or additional content without cluttering the page. This feature is natively supported in modern web browsers, promoting cleaner and more organized web layouts.
+            <br><br>
+        </details>
+     </section>
+     <section>
+        <details>
+            <summary style="color: crimson;"> What tag is helpful to give the reviews ?</summary>
+            <br>
+            The `textarea` tag in HTML is used to create a multi-line text input field, ideal for capturing long text, such as reviews, comments, or feedback. Unlike the `input` tag, which is limited to single-line inputs, `textarea` allows users to enter multiple lines of text, making it suitable for detailed responses. It can be customized with attributes like `rows` and `cols` to control its height and width. This tag is commonly seen in forms where users are expected to provide detailed written content, making it a great option for reviews.  
+            <br><br>
+        </details>
+     </section>
+     <section>
+        <details>
+            <summary style="color: crimson;"> what are fieldset and legend tags?</summary>
+            <br>
+            The `fieldset` and `legend` tags in HTML are used to group related elements within a form. The `fieldset` element creates a visual grouping by drawing a box around the enclosed form elements, making the form more structured and easier to understand. The `legend` tag is placed within the `fieldset` to provide a caption or title for the group, giving context about the grouped elements. Together, these tags enhance form accessibility and usability by clearly indicating the purpose of a set of form fields.
+           <br><br>
+        </details>
+     </section>
+ </main>
+</body>
+</html>
